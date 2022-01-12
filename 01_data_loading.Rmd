@@ -1,0 +1,34 @@
+---
+title: "Data shaping"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+```
+
+# Introduction
+
+This document aims at uploading and reshaping datasets from two different experiments.
+
+The first is the measurement of seedlings over 3 different altitudinal gradients.
+
+The second is the measure of frost resistance trait over one of these gradient.
+
+# LT50
+
+```{r DataLoading}
+data_LT50 <- read.csv2("data/LT50.csv")
+```
+
+
+# Seedlings
+
+```{r DataLoading2}
+data_plot <- read.csv("data/coord_placettes.csv")
+data_adult <- read.csv("data/data_adult_clean.csv")
+data_seedling <- read.csv("data/data_seedling_clean.csv")
+data_lux <- read.csv("data/data_clim_clean.csv")
+```
+
