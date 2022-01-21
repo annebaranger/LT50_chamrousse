@@ -12,7 +12,7 @@ library(dplyr)
 
 This document aims at uploading and reshaping datasets from two different experiments.
 
-The first is the measurement of seedlings over 3 different altitudinal gradients.
+The first is the measurement of seedlings over 3 altitudinal gradients.
 
 The second is the measure of frost resistance trait over one of these gradient.
 
